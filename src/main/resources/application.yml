@@ -1,0 +1,15 @@
+klyton:
+  authKey:
+    KASKWIM459K2J82E1N7JY2HZ:cBr-HHL0S5AenhZqeendbpw4vbr3oEW2bBxMIJEr
+
+
+spring:
+  batch.job.enabled: false
+  datasource:
+
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster0.yogevbk.mongodb.net/?retryWrites=true&w=majority
